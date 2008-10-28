@@ -15,7 +15,7 @@ module GitPair
 
     def self.show
       author_regex = /^git-pair.authors.([^=]+)=(.+)$/
-      authors = `git config --list | grep 'git-pair'`
+      authors = `git config --list | grep 'git-pair.authors'`
       
       puts "Authors"
       puts "========"
