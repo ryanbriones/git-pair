@@ -3,7 +3,7 @@ require 'rake/gempackagetask'
 
 spec = Gem::Specification.new do |s|
   s.name = 'git-pair'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.summary = 'Simple interface for adding your pair to a commit via git commit --author'
   s.files = FileList['[A-Z]*', 'bin/*', 'lib/**/*']
   s.has_rdoc = false

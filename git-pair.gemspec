@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.default_executable = %q{git-pair}
   s.email = %q{ryan.briones@brionesandco.com}
   s.executables = ["git-pair"]
-  s.files = ["Rakefile", "bin/git-pair", "lib/git-pair", "lib/git-pair/author.rb", "lib/git-pair/command.rb", "lib/git-pair/commit.rb"]
+  s.files = ["Rakefile", "README.markdown", "bin/git-pair", "lib/git-pair", "lib/git-pair/author.rb", "lib/git-pair/command.rb", "lib/git-pair/commit.rb"]
   s.homepage = %q{http://brionesandco.com/ryanbriones}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.2.0}
