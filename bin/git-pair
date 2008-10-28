@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+# -*- ruby -*-
+require 'git-pair/command'
+
+exit GitPair::Command.run!(ARGV)
