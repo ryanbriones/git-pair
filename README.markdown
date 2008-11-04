@@ -21,10 +21,11 @@ I wanted a way for git to show me when a commit was made from a pair during pair
 
 # Usage
 
-* Add an author: `git-pair add abbr 'Person <emailaddress>'`
-  * example: `git-pair add js 'John Smith <jsmith@example.com>'`
+* Add an author: `git-pair add [--global] abbr 'Person <emailaddress>'`
+  * example: `git-pair add --global js 'John Smith <jsmith@example.com>'` # adds pair to ~/.gitconfig
+  * example: `git-pair add js 'John Smith <jsmith@example.com>'` # WARNING adds pair to current git repo
 * Show available authors: `git-pair show`
-* Commit with a pair: `git-pair commit [abbr] [-m 'Commit Message']`
+* Commit with a pair: `git-pair commit [abbr] [git_options]`
 
 # Authors
 
